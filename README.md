@@ -1,5 +1,8 @@
 # py-ec333
-Python code for EC333 Lent term classes. Ported over from R code written by Rachel Meager (LSE).
+[![Open In nbviewer](https://warehouse-camo.ingress.cmh1.psfhosted.org/b76644f44625d8876b279659d108c1e5334fd8b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76696577253230696e2d6e627669657765722d6f72616e6765)](https://nbviewer.jupyter.org/github/topher-lo/py-ec333/tree/master/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/topher-lo/py-ec333)
+
+Python code for EC333 Lent term classes. Converted over from R code written by Rachael Meager (LSE).
 
 ## Python Preliminaries
 > Note: this assumes that the user has a Anaconda Python 3 distribution installed and is using either Mac OX or Linux. If you are a
