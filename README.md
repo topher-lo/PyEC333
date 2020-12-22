@@ -1,6 +1,6 @@
 # PyEC333
-[![Open In nbviewer](https://warehouse-camo.ingress.cmh1.psfhosted.org/b76644f44625d8876b279659d108c1e5334fd8b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76696577253230696e2d6e627669657765722d6f72616e6765)](https://nbviewer.jupyter.org/github/topher-lo/py-ec333/tree/master/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/topher-lo/py-ec333)
+[![Open In nbviewer](https://warehouse-camo.ingress.cmh1.psfhosted.org/b76644f44625d8876b279659d108c1e5334fd8b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76696577253230696e2d6e627669657765722d6f72616e6765)](https://nbviewer.jupyter.org/github/topher-lo/PyEC333/tree/master/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/topher-lo/PyEC333)
 
 Python code for EC333 Lent term classes. Converted over from R code written by Rachael Meager (LSE).
 
@@ -24,11 +24,11 @@ Note: replace `myenv` with the environment name (e.g. ec333)
 
 2. You then **activate** the environment by running: `conda activate myenv`
 You have activated your environment if the beginning of your command line looks something like this:  
-`(myenv) user@host:~/repos/py-ec333$`
+`(myenv) user@host:~/repos/PyEC333$`
 
 3. Any packages **installed** while this environment this activated will be isolated from your base installation of Python and *any other environment*. 
 For example, if you want to install the Python package *statsmodels*, you can run:  
-`(myenv) user@host:~/repos/py-ec333$ conda install statsmodels`
+`(myenv) user@host:~/repos/PyEC333$ conda install statsmodels`
 
 4. To **deactivate** the environment, you run: `conda deactivate myenv`
 Note: to work with the packages installed in the environment in the future, you can skip to step 2. and continue where you left off.
@@ -42,7 +42,7 @@ Nobody will trust you.
 
 ## Getting Started
 1. Clone this repository onto your local computer with a Anaconda Python 3 distribution installed.
-2. Change into the py-ec333 directory.
+2. Change into the PyEC333 directory.
 3. Run the following command: `conda env create -f environment.yml`. This command creates a new virtual environment and installs 
 into that environment *all* the packages listed in the `environment.yml` file.
 4. Activate the newly installed environment by running `conda activate ec333`
