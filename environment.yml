@@ -130,4 +130,3 @@ dependencies:
     - linearmodels==4.17
     - mypy-extensions==0.4.3
     - property-cached==1.6.4
-prefix: /home/topher-lo/miniconda3/envs/ec333
