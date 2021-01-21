@@ -6,7 +6,7 @@ Python code for EC333 Lent term classes. Converted over from R code written by R
 
 ## Python Preliminaries
 > Note: this assumes that the user has a Anaconda Python 3 distribution installed and is using either Mac OX or Linux. If you are a
-Windows user and are serious about Python development, I would highly recommend installing a Windows Linux Subsystem 
+Windows user and are serious about Python development, I would highly recommend setting up Windows Subsystem for Linux.
 (https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
 > Note: DO NOT run any of the commands in this section. This discussion is preliminary knowledge to the section "Getting Started".
@@ -56,6 +56,10 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environme
 
 > Note: if you run into any "package not found" errors, option 3. in this Stackoverflow post's top comment might help 
 https://stackoverflow.com/questions/58068818/how-to-use-jupyter-notebooks-in-a-conda-environment
+
+## Contributing
+Found a bug? Wrote a patch? Want to add new content? Please checkout the brief [contribution guide](https://github.com/topher-lo/PyEC333/blob/master/CONTRIBUTING.md).
+Any and all contributions are welcome, just open up a Github issue and let's talk metrics and Python. :heart: :snake: :raised_hands:		
 
 ## References
 - https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
