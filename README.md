@@ -4,6 +4,11 @@
 
 Python code for EC333 Lent term classes. Converted over from R code written by Rachael Meager (LSE).
 
+## To Do
+- Intro to MLE (Expected completion: 2/2/2020)
+- Intro to GMM (Expected completion: 7/2/2020)
+- (Optional) Non-linear panel methods (Expected completion: TBD)
+
 ## Python Preliminaries
 Check out the [quick guide](https://github.com/topher-lo/PyEC333/blob/master/PRELIMINARIES.md) on setting up an Anaconda Python data science environment on your computer.
 
