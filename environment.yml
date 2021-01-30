@@ -1,0 +1,13 @@
+name: ec333
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+  - pandas
+  - matplotlib
+  - pip:
+    - linearmodels
+    - arch
