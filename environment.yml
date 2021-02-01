@@ -8,6 +8,7 @@ dependencies:
   - statsmodels
   - pandas
   - matplotlib
+  - pip
   - pip:
     - linearmodels
     - arch
