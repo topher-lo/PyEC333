@@ -2,13 +2,14 @@ name: ec333
 channels:
   - defaults
 dependencies:
+  - basemap
+  - matplotlib
   - numpy
   - pandas
   - scipy
   - statsmodels
-  - pandas
-  - matplotlib
   - pip
   - pip:
     - linearmodels
     - arch
+    - autograd
