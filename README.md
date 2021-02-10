@@ -5,8 +5,10 @@
 Python code for EC333 Lent term classes. Converted over from R code written by Rachael Meager (LSE).
 
 ## To Do
-- Intro to GMM (Expected completion: 7/2/2020)
-- (Optional) Non-linear panel methods (Expected completion: TBD)
+- Intro to GMM (Expected completion: TBD)
+- (Optional) Non-linear panel methods (Expected completion:14/02/2021)
+
+Note: I am unlikely to complete the GMM notebook anytime soon as I don't really understand how GMM works, GMM in `statsmodels` is still under development, and I do not have permission to reuse the CCAPM dataset provided in EC333.
 
 ## Python Preliminaries
 Check out the [quick guide](https://github.com/topher-lo/PyEC333/blob/master/PRELIMINARIES.md) on setting up an Anaconda Python data science environment on your computer.
