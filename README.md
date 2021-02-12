@@ -4,7 +4,7 @@
 
 Python code for EC333 Lent term classes. Converted over from R code written by Rachael Meager (LSE).
 
-## To Do
+## Project Status
 - Intro to GMM (Expected completion: TBD)
 - (Optional) Non-linear panel methods (Expected completion: TBD)
 
@@ -16,7 +16,7 @@ and throws out an [error](https://github.com/statsmodels/statsmodels/issues/5904
 ## Python Preliminaries
 Check out the [quick guide](https://github.com/topher-lo/PyEC333/blob/master/PRELIMINARIES.md) on setting up an Anaconda Python data science environment on your computer.
 
-## Getting Started
+## :rocket: Getting Started
 1. Clone this repository onto your local computer with a Anaconda Python 3 distribution installed.
 2. Change into the PyEC333 directory.
 3. Run the following command: `conda env create -f environment.yml`. This command creates a new virtual environment and installs 
