@@ -5,6 +5,7 @@ dependencies:
   - basemap
   - matplotlib
   - numpy
+  - nb_conda_kernels
   - pandas
   - scipy
   - statsmodels
