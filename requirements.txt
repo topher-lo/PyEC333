@@ -3,6 +3,8 @@ autograd
 linearmodels
 matplotlib
 numpy
+seaborn
+stargazer
 scipy
 statsmodels
 ipykernel

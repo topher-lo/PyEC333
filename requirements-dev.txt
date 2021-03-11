@@ -1,0 +1,4 @@
+pytest
+pytest-notebook
+pytest-cov
+flake8
