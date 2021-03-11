@@ -1,0 +1,41 @@
+# This workflow will install Python dependencies and run regression testing of Jupyter notebooks
+
+name: Workflow for Codecov
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+      - '.gitignore'
+
+jobs:
+  codecov:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install venv
+      run: |
+        python3 -m venv ec333_env
+        source ec333_env/bin/activate
+    - name: Install dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        pip3 install -r requirements-dev.txt
+        if [ -f requirements.txt ]; then pip3 install -r requirements.txt; fi
+    - name: Add venv to jupyter
+      run: |
+        python3 -m ipykernel install --user --name=ec333_env
+    - name: Generate coverage report
+      run: |
+        pytest --nbval-lax --cov=notebooks --cov-report=xml
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v1
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        file: ./coverage.xml

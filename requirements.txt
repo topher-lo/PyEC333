@@ -1,9 +1,11 @@
 arch
 autograd
-basemap
 linearmodels
 matplotlib
 numpy
+seaborn
+stargazer
 scipy
 statsmodels
 ipykernel
+notebook

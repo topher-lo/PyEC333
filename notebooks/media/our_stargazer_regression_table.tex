@@ -1,0 +1,30 @@
+\begin{table}[!htbp] \centering
+\begin{tabular}{@{\extracolsep{5pt}}lccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& \multicolumn{3}{c}{\textit{Dependent variable:}} \
+\cr \cline{3-4}
+\\[-1.8ex] & \multicolumn{1}{c}{default} & \multicolumn{1}{c}{HAC} & \multicolumn{1}{c}{robust}  \\
+\\[-1.8ex] & (1) & (2) & (3) \\
+\hline \\[-1.8ex]
+ C(factor)[bad] & 1.986$^{***}$ & 1.986$^{***}$ & 1.986$^{***}$ \\
+  & (0.208) & (0.209) & (0.209) \\
+ C(factor)[good] & 1.873$^{***}$ & 1.873$^{***}$ & 1.873$^{***}$ \\
+  & (0.204) & (0.207) & (0.207) \\
+ C(factor)[ugly] & 1.824$^{***}$ & 1.824$^{***}$ & 1.824$^{***}$ \\
+  & (0.203) & (0.202) & (0.202) \\
+ covariate & -0.003$^{}$ & -0.003$^{}$ & -0.003$^{}$ \\
+  & (0.018) & (0.018) & (0.018) \\
+ treatment & 3.091$^{***}$ & 3.091$^{***}$ & 3.091$^{***}$ \\
+  & (0.186) & (0.186) & (0.186) \\
+\hline \\[-1.8ex]
+ Observations & 3,000 & 3,000 & 3,000 \\
+ $R^2$ & 0.086 & 0.086 & 0.086 \\
+ Adjusted $R^2$ & 0.085 & 0.085 & 0.085 \\
+ Residual Std. Error & 5.058(df = 2995) & 5.058(df = 2995) & 5.058(df = 2995)  \\
+ F Statistic & 70.252$^{***}$ (df = 4.0; 2995.0) & nan$^{***}$ (df = 4.0; 2995.0) & nan$^{***}$ (df = 4.0; 2995.0) \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\end{table}

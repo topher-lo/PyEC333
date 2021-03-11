@@ -1,9 +1,6 @@
 # VSCode
 .vscode/
 
-# Files in media
-media/*
-
 .benchmarks
 
 # Byte-compiled / optimized / DLL files
@@ -120,6 +117,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+ec333_env
 
 # Spyder project settings
 .spyderproject
