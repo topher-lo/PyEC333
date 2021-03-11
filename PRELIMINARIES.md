@@ -1,6 +1,6 @@
 # Python Preliminaries
 
-> Note: this assumes that the user has a Anaconda Python 3 distribution installed and is using either Mac OX or Linux. If you are a
+> Note: this assumes that the user has Python 3 installed and is using either Mac OX or Linux. If you are a
 Windows user and are serious about Python development, I would highly recommend setting up Windows Subsystem for Linux.
 (https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
@@ -12,20 +12,22 @@ A best practice for Python development, before executing any code, is to set-up 
 and paths so that you can work with specific versions of libraries or Python itself without affecting other Python projects.  
 (https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/)
 
-There are four key steps to using a virtual environment. 
-1. You first **create** it using either the terminal or an Anaconda Prompt:
-`conda create --name myenv`
+There are four key steps to using a Python 3 virtual environment. 
+1. You first **create** it using the terminal:
+`python3 -m venv myenv`
 Note: replace `myenv` with the environment name (e.g. ec333)
 
-2. You then **activate** the environment by running: `conda activate myenv`
+2. You then **activate** the environment by running: `source myenv/bin/activate`
 You have activated your environment if the beginning of your command line looks something like this:  
 `(myenv) user@host:~/repos/PyEC333$`
 
 3. Any packages **installed** while this environment this activated will be isolated from your base installation of Python and *any other environment*. 
 For example, if you want to install the Python package *statsmodels*, you can run:  
-`(myenv) user@host:~/repos/PyEC333$ conda install statsmodels`
+`(myenv) user@host:~/repos/PyEC333$ pip3 install statsmodels`
 
-4. To **deactivate** the environment, you run: `conda deactivate myenv`
+Note: `pip3` is package installer (and management tool) for Python 3.
+
+4. To **deactivate** the environment, you run: `source deactivate`
 Note: to work with the packages installed in the environment in the future, you can skip to step 2. and continue where you left off.
 
 ## Why use virtual environments?
