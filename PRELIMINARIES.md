@@ -10,7 +10,7 @@ A best practice for Python development, before executing any code, is to set-up 
 
 > A virtual environment is a named, isolated, working copy of Python that that maintains its own files, directories, 
 and paths so that you can work with specific versions of libraries or Python itself without affecting other Python projects.  
-(https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/)
+(https://docs.python.org/3/library/venv.html)
 
 There are four key steps to using a Python 3 virtual environment. 
 1. You first **create** it using the terminal:
