@@ -33,7 +33,7 @@ jobs:
         python3 -m ipykernel install --user --name=ec333_env
     - name: Generate coverage report
       run: |
-        pytest --nbval-lax --cov=notebooks --cov-report=xml
+        py.test --nbval-lax --cov=notebooks --cov-report=xml
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
       with:
