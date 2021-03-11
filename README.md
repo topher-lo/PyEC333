@@ -14,29 +14,23 @@ Further note: The non-linear panel notebook has been put on hold. Conditional lo
 and throws out an [error](https://github.com/statsmodels/statsmodels/issues/5904) that has yet to be resolved.
 
 ## Python Preliminaries
-Check out the [quick guide](https://github.com/topher-lo/PyEC333/blob/master/PRELIMINARIES.md) on setting up an Anaconda Python data science environment on your computer.
+Check out the [quick guide](https://github.com/topher-lo/PyEC333/blob/master/PRELIMINARIES.md) on setting up Python virtual environments on your computer.
 
 ## :rocket: Getting Started
-1. Clone this repository onto your local computer with a Anaconda Python 3 distribution installed.
+1. Clone this repository onto your local computer with Python 3 installed
 2. Change into the PyEC333 directory.
-3. Run the following command: `conda env create -f environment.yml`. This command creates a new virtual environment and installs 
-into that environment *all* the packages listed in the `environment.yml` file.
-4. Activate the newly installed environment by running `conda activate ec333`
-5. Run the following command to start Jupyter notebook on your browser: `jupyter notebook`
-6. Run the cells in the Jupyter notebooks!
+3. Run the following command: `python3 -m venv ec333_env`. This command creates a new virtual environment called `ec333_env`
+5. Activate the newly installed environment by running `source env/bin/activate`
+6. Run `pip3 install -r requirements.txt`. This installs into `ec333_env` *all* the packages listed in the `requirements.txt` file
+7. Run `python3 -m ipykernel install --user --name=ec333_env`
+8. Run the following command to start Jupyter notebook on your browser: `jupyter notebook`
+9. Run the cells in the Jupyter notebooks!
 
-> Note: The first line of the `yml` file sets the new environment's name.
-
-> Note: To learn how to share your own virtual environments through an `environment.yml` file, check out the following link: 
-https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment
-
-> Note: if you run into any "package not found" errors, option 3. in this Stackoverflow post's top comment might help 
-https://stackoverflow.com/questions/58068818/how-to-use-jupyter-notebooks-in-a-conda-environment
+> Note: using virtual environments in Jupyter can be a bit tricky. Check out this blog [post](https://janakiev.com/blog/jupyter-virtual-envs/) for a step-by-step guide on the installation process.
 
 ## Contributing
 Found a bug? Wrote a patch? Want to add new content? Please checkout the brief [contribution guide](https://github.com/topher-lo/PyEC333/blob/master/CONTRIBUTING.md).
 Any and all contributions are welcome, just open up a Github issue and let's talk metrics and Python. :heart: :snake: :raised_hands:		
 
 ## References
-- https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 - https://www.aeaweb.org/research/transparency-reproducibility-credibility-economics
