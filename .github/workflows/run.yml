@@ -1,6 +1,6 @@
 # This workflow will install Python dependencies and run regression testing of Jupyter notebooks
 
-name: Workflow for Codecov
+name: Run Notebooks
 
 on:
   push:
