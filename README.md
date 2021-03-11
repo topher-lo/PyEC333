@@ -14,7 +14,7 @@ Further note: The non-linear panel notebook has been put on hold. Conditional lo
 and throws out an [error](https://github.com/statsmodels/statsmodels/issues/5904) that has yet to be resolved.
 
 ## Python Preliminaries
-Check out the [quick guide](https://github.com/topher-lo/PyEC333/blob/master/PRELIMINARIES.md) on setting up an Anaconda Python data science environment on your computer.
+Check out the [quick guide](https://github.com/topher-lo/PyEC333/blob/master/PRELIMINARIES.md) on setting up Python virtual environments on your computer.
 
 ## :rocket: Getting Started
 1. Clone this repository onto your local computer with Python 3 installed
@@ -33,5 +33,4 @@ Found a bug? Wrote a patch? Want to add new content? Please checkout the brief [
 Any and all contributions are welcome, just open up a Github issue and let's talk metrics and Python. :heart: :snake: :raised_hands:		
 
 ## References
-- https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 - https://www.aeaweb.org/research/transparency-reproducibility-credibility-economics
