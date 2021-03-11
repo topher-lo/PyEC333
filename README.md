@@ -1,7 +1,7 @@
 # PyEC333
 [![Open In nbviewer](https://warehouse-camo.ingress.cmh1.psfhosted.org/b76644f44625d8876b279659d108c1e5334fd8b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76696577253230696e2d6e627669657765722d6f72616e6765)](https://nbviewer.jupyter.org/github/topher-lo/PyEC333/tree/main/)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/topher-lo/PyEC333)
-[![codecov](https://codecov.io/gh/topher-lo/PyEC333/branch/main/graph/badge.svg?token=93056M7S6T)](https://codecov.io/gh/topher-lo/PyEC333)
+[![Run Notebooks](https://github.com/topher-lo/PyEC333/workflows/Run%20Notebooks/badge.svg)](https://github.com/topher-lo/PyEC333/actions)
 
 Python code for EC333 Lent term classes. Converted over from R code written by Rachael Meager (LSE).
 
