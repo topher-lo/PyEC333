@@ -4,7 +4,6 @@ autograd
 linearmodels
 matplotlib
 numpy
-pymc3
 seaborn
 stargazer
 scipy
