@@ -11,7 +11,7 @@ on:
       - '.gitignore'
 
 jobs:
-  codecov:
+  run-notebooks:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -31,11 +31,6 @@ jobs:
     - name: Add venv to jupyter
       run: |
         python3 -m ipykernel install --user --name=ec333_env
-    - name: Generate coverage report
+    - name: Run notebooks
       run: |
         py.test --nbval-lax
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v1
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
-        file: ./coverage.xml
