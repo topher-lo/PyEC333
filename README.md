@@ -7,12 +7,8 @@ Python code for EC333 Lent term classes. Converted over from R code written by R
 
 ## Project Status
 - Intro to GMM (Expected completion: TBD)
-- (Optional) Non-linear panel methods (Expected completion: TBD)
 
 Note: I am unlikely to complete the GMM notebook anytime soon as I don't really understand how GMM works, GMM in `statsmodels` is still under development, and I do not have permission to reuse the CCAPM dataset provided in EC333.
-
-Further note: The non-linear panel notebook has been put on hold. Conditional logit in `statsmodels` is a work-in-progress
-and throws out an [error](https://github.com/statsmodels/statsmodels/issues/5904) that has yet to be resolved.
 
 ## Python Preliminaries
 Check out the [quick guide](https://github.com/topher-lo/PyEC333/blob/main/PRELIMINARIES.md) on setting up Python virtual environments on your computer.

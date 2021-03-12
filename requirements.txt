@@ -1,4 +1,5 @@
 arch
+arviz
 autograd
 linearmodels
 matplotlib
