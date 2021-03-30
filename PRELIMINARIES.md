@@ -31,6 +31,10 @@ For example, if you want to install the Python package *statsmodels*, you can ru
 (myenv) user@host:~/repos/PyEC333$ pip3 install statsmodels
 ```
 
+4. The last step is to add your virtual environment to Jupyter:
+```bash
+(myenv) user@host:ipython kernel install --name "myenv" --user
+```
 Note: `pip3` is the package installer (and management tool) for Python 3.
 
 4. To **deactivate** the environment, you run: `source deactivate`
