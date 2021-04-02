@@ -17,7 +17,7 @@ There are four key steps to using a Python 3 virtual environment.
 ```bash
 python3 -m venv myenv
 ```
-Note: replace `myenv` with the environment name (e.g. ec333)
+Note: replace `myenv` with the environment name (e.g. ec333_env)
 
 2. You then **activate** the environment by running: `source myenv/bin/activate`
 You have activated your environment if the beginning of your command line looks something like this:  
