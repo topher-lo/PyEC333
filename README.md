@@ -1,5 +1,5 @@
 # PyEC333
-[![Open In nbviewer](https://warehouse-camo.ingress.cmh1.psfhosted.org/b76644f44625d8876b279659d108c1e5334fd8b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76696577253230696e2d6e627669657765722d6f72616e6765)](https://nbviewer.jupyter.org/github/topher-lo/PyEC333/tree/main/)
+[![Open In nbviewer](https://img.shields.io/badge/view%20in-nbviewer-blue)](https://nbviewer.jupyter.org/github/topher-lo/PyEC333/tree/main/)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/topher-lo/PyEC333)
 [![Run Notebooks](https://github.com/topher-lo/PyEC333/workflows/Run%20Notebooks/badge.svg)](https://github.com/topher-lo/PyEC333/actions)
 
